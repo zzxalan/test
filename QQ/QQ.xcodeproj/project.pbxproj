@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1811AAD61F3806690019D306 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811AAD41F3806690019D306 /* FriendTableViewCell.swift */; };
+		1811AAD71F3806690019D306 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811AAD51F3806690019D306 /* FriendTableViewCell.xib */; };
+		1811AAD91F3822000019D306 /* MoreTableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811AAD81F3822000019D306 /* MoreTableScrollView.swift */; };
+		1811AADC1F384DDF0019D306 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811AADA1F384DDF0019D306 /* GroupTableViewCell.swift */; };
+		1811AADD1F384DDF0019D306 /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811AADB1F384DDF0019D306 /* GroupTableViewCell.xib */; };
+		1811AAE01F384DED0019D306 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811AADE1F384DED0019D306 /* ChatTableViewCell.swift */; };
+		1811AAE11F384DED0019D306 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811AADF1F384DED0019D306 /* ChatTableViewCell.xib */; };
+		1811AAE41F384E070019D306 /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811AAE21F384E070019D306 /* EquipmentTableViewCell.swift */; };
+		1811AAE51F384E070019D306 /* EquipmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811AAE31F384E070019D306 /* EquipmentTableViewCell.xib */; };
+		189BD6B71F36972B009BADD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6B61F36972B009BADD3 /* AppDelegate.swift */; };
+		189BD6BE1F36972B009BADD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BD6BD1F36972B009BADD3 /* Assets.xcassets */; };
+		189BD6DA1F3698C6009BADD3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6CF1F3698C6009BADD3 /* Config.swift */; };
+		189BD6DB1F3698C6009BADD3 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6D11F3698C6009BADD3 /* UIViewControllerExtension.swift */; };
+		189BD6DC1F3698C6009BADD3 /* UIviewExtennsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6D21F3698C6009BADD3 /* UIviewExtennsion.swift */; };
+		189BD6E01F3698C6009BADD3 /* LQAlretController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6D81F3698C6009BADD3 /* LQAlretController.swift */; };
+		189BD6E11F3698C6009BADD3 /* UIAnnularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6D91F3698C6009BADD3 /* UIAnnularProgress.swift */; };
+		189BD6E51F369A7B009BADD3 /* QQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6E41F369A7B009BADD3 /* QQTabBarController.swift */; };
+		189BD6E71F369B93009BADD3 /* QQMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6E61F369B93009BADD3 /* QQMessageViewController.swift */; };
+		189BD6E91F369BCC009BADD3 /* QQFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6E81F369BCC009BADD3 /* QQFriendViewController.swift */; };
+		189BD6EB1F369BED009BADD3 /* QQSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6EA1F369BED009BADD3 /* QQSpaceViewController.swift */; };
+		189BD6F01F36B72B009BADD3 /* MSGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BD6EE1F36B72B009BADD3 /* MSGTableViewCell.swift */; };
+		189BD6F11F36B72B009BADD3 /* MSGTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189BD6EF1F36B72B009BADD3 /* MSGTableViewCell.xib */; };
+		18D7C71A1F371C1B0093CE2C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7C7191F371C1B0093CE2C /* UIImageExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1811AAD41F3806690019D306 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		1811AAD51F3806690019D306 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		1811AAD81F3822000019D306 /* MoreTableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableScrollView.swift; sourceTree = "<group>"; };
+		1811AADA1F384DDF0019D306 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		1811AADB1F384DDF0019D306 /* GroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		1811AADE1F384DED0019D306 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		1811AADF1F384DED0019D306 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		1811AAE21F384E070019D306 /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
+		1811AAE31F384E070019D306 /* EquipmentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipmentTableViewCell.xib; sourceTree = "<group>"; };
+		189BD6B31F36972B009BADD3 /* QQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189BD6B61F36972B009BADD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189BD6BD1F36972B009BADD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189BD6C21F36972B009BADD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189BD6CF1F3698C6009BADD3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		189BD6D11F3698C6009BADD3 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		189BD6D21F3698C6009BADD3 /* UIviewExtennsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIviewExtennsion.swift; sourceTree = "<group>"; };
+		189BD6D81F3698C6009BADD3 /* LQAlretController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQAlretController.swift; sourceTree = "<group>"; };
+		189BD6D91F3698C6009BADD3 /* UIAnnularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAnnularProgress.swift; sourceTree = "<group>"; };
+		189BD6E41F369A7B009BADD3 /* QQTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQTabBarController.swift; sourceTree = "<group>"; };
+		189BD6E61F369B93009BADD3 /* QQMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQMessageViewController.swift; sourceTree = "<group>"; };
+		189BD6E81F369BCC009BADD3 /* QQFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQFriendViewController.swift; sourceTree = "<group>"; };
+		189BD6EA1F369BED009BADD3 /* QQSpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQSpaceViewController.swift; sourceTree = "<group>"; };
+		189BD6EE1F36B72B009BADD3 /* MSGTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGTableViewCell.swift; sourceTree = "<group>"; };
+		189BD6EF1F36B72B009BADD3 /* MSGTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSGTableViewCell.xib; sourceTree = "<group>"; };
+		18D7C7191F371C1B0093CE2C /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189BD6B01F36972B009BADD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189BD6AA1F36972B009BADD3 = {
+			isa = PBXGroup;
+			children = (
+				189BD6B51F36972B009BADD3 /* QQ */,
+				189BD6B41F36972B009BADD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189BD6B41F36972B009BADD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6B31F36972B009BADD3 /* QQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189BD6B51F36972B009BADD3 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6CE1F3698C6009BADD3 /* Tools */,
+				189BD6C81F3698A6009BADD3 /* Extension */,
+				189BD6C91F3698A6009BADD3 /* Model */,
+				189BD6CB1F3698A6009BADD3 /* View */,
+				189BD6CD1F3698A6009BADD3 /* ViewController */,
+				189BD6B61F36972B009BADD3 /* AppDelegate.swift */,
+				189BD6BD1F36972B009BADD3 /* Assets.xcassets */,
+				189BD6C21F36972B009BADD3 /* Info.plist */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		189BD6C81F3698A6009BADD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		189BD6C91F3698A6009BADD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189BD6CB1F3698A6009BADD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6CC1F3698A6009BADD3 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189BD6CC1F3698A6009BADD3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6EE1F36B72B009BADD3 /* MSGTableViewCell.swift */,
+				189BD6EF1F36B72B009BADD3 /* MSGTableViewCell.xib */,
+				1811AAD41F3806690019D306 /* FriendTableViewCell.swift */,
+				1811AAD51F3806690019D306 /* FriendTableViewCell.xib */,
+				1811AADA1F384DDF0019D306 /* GroupTableViewCell.swift */,
+				1811AADB1F384DDF0019D306 /* GroupTableViewCell.xib */,
+				1811AADE1F384DED0019D306 /* ChatTableViewCell.swift */,
+				1811AADF1F384DED0019D306 /* ChatTableViewCell.xib */,
+				1811AAE21F384E070019D306 /* EquipmentTableViewCell.swift */,
+				1811AAE31F384E070019D306 /* EquipmentTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		189BD6CD1F3698A6009BADD3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6E41F369A7B009BADD3 /* QQTabBarController.swift */,
+				189BD6E61F369B93009BADD3 /* QQMessageViewController.swift */,
+				189BD6E81F369BCC009BADD3 /* QQFriendViewController.swift */,
+				189BD6EA1F369BED009BADD3 /* QQSpaceViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		189BD6CE1F3698C6009BADD3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6CF1F3698C6009BADD3 /* Config.swift */,
+				189BD6D01F3698C6009BADD3 /* Extension */,
+				189BD6D71F3698C6009BADD3 /* view */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		189BD6D01F3698C6009BADD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6D11F3698C6009BADD3 /* UIViewControllerExtension.swift */,
+				189BD6D21F3698C6009BADD3 /* UIviewExtennsion.swift */,
+				18D7C7191F371C1B0093CE2C /* UIImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		189BD6D71F3698C6009BADD3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				189BD6D81F3698C6009BADD3 /* LQAlretController.swift */,
+				189BD6D91F3698C6009BADD3 /* UIAnnularProgress.swift */,
+				1811AAD81F3822000019D306 /* MoreTableScrollView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189BD6B21F36972B009BADD3 /* QQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189BD6C51F36972B009BADD3 /* Build configuration list for PBXNativeTarget "QQ" */;
+			buildPhases = (
+				189BD6AF1F36972B009BADD3 /* Sources */,
+				189BD6B01F36972B009BADD3 /* Frameworks */,
+				189BD6B11F36972B009BADD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQ;
+			productName = QQ;
+			productReference = 189BD6B31F36972B009BADD3 /* QQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189BD6AB1F36972B009BADD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zzxwork;
+				TargetAttributes = {
+					189BD6B21F36972B009BADD3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9Q42SU34S6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 189BD6AE1F36972B009BADD3 /* Build configuration list for PBXProject "QQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189BD6AA1F36972B009BADD3;
+			productRefGroup = 189BD6B41F36972B009BADD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189BD6B21F36972B009BADD3 /* QQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189BD6B11F36972B009BADD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BD6BE1F36972B009BADD3 /* Assets.xcassets in Resources */,
+				1811AAD71F3806690019D306 /* FriendTableViewCell.xib in Resources */,
+				1811AAE11F384DED0019D306 /* ChatTableViewCell.xib in Resources */,
+				189BD6F11F36B72B009BADD3 /* MSGTableViewCell.xib in Resources */,
+				1811AAE51F384E070019D306 /* EquipmentTableViewCell.xib in Resources */,
+				1811AADD1F384DDF0019D306 /* GroupTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189BD6AF1F36972B009BADD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BD6E11F3698C6009BADD3 /* UIAnnularProgress.swift in Sources */,
+				189BD6DB1F3698C6009BADD3 /* UIViewControllerExtension.swift in Sources */,
+				189BD6E91F369BCC009BADD3 /* QQFriendViewController.swift in Sources */,
+				189BD6E71F369B93009BADD3 /* QQMessageViewController.swift in Sources */,
+				189BD6DC1F3698C6009BADD3 /* UIviewExtennsion.swift in Sources */,
+				1811AAE01F384DED0019D306 /* ChatTableViewCell.swift in Sources */,
+				1811AAE41F384E070019D306 /* EquipmentTableViewCell.swift in Sources */,
+				189BD6F01F36B72B009BADD3 /* MSGTableViewCell.swift in Sources */,
+				189BD6EB1F369BED009BADD3 /* QQSpaceViewController.swift in Sources */,
+				1811AAD61F3806690019D306 /* FriendTableViewCell.swift in Sources */,
+				189BD6E01F3698C6009BADD3 /* LQAlretController.swift in Sources */,
+				1811AADC1F384DDF0019D306 /* GroupTableViewCell.swift in Sources */,
+				1811AAD91F3822000019D306 /* MoreTableScrollView.swift in Sources */,
+				189BD6E51F369A7B009BADD3 /* QQTabBarController.swift in Sources */,
+				189BD6B71F36972B009BADD3 /* AppDelegate.swift in Sources */,
+				189BD6DA1F3698C6009BADD3 /* Config.swift in Sources */,
+				18D7C71A1F371C1B0093CE2C /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		189BD6C31F36972B009BADD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189BD6C41F36972B009BADD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189BD6C61F36972B009BADD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 9Q42SU34S6;
+				INFOPLIST_FILE = QQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmu.201421121054.QQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		189BD6C71F36972B009BADD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 9Q42SU34S6;
+				INFOPLIST_FILE = QQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmu.201421121054.QQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189BD6AE1F36972B009BADD3 /* Build configuration list for PBXProject "QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189BD6C31F36972B009BADD3 /* Debug */,
+				189BD6C41F36972B009BADD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189BD6C51F36972B009BADD3 /* Build configuration list for PBXNativeTarget "QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189BD6C61F36972B009BADD3 /* Debug */,
+				189BD6C71F36972B009BADD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189BD6AB1F36972B009BADD3 /* Project object */;
+}
