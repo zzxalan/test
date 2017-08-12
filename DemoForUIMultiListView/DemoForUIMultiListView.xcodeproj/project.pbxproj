@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DE24A21F3EA60F0003B934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24A11F3EA60F0003B934 /* AppDelegate.swift */; };
+		18DE24A41F3EA60F0003B934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24A31F3EA60F0003B934 /* ViewController.swift */; };
+		18DE24A71F3EA60F0003B934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE24A51F3EA60F0003B934 /* Main.storyboard */; };
+		18DE24A91F3EA60F0003B934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE24A81F3EA60F0003B934 /* Assets.xcassets */; };
+		18DE24AC1F3EA60F0003B934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE24AA1F3EA60F0003B934 /* LaunchScreen.storyboard */; };
+		18DE24B41F3EA6350003B934 /* UIMultiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24B31F3EA6350003B934 /* UIMultiListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18DE249E1F3EA60F0003B934 /* DemoForUIMultiListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForUIMultiListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE24A11F3EA60F0003B934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DE24A31F3EA60F0003B934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DE24A61F3EA60F0003B934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DE24A81F3EA60F0003B934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DE24AB1F3EA60F0003B934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DE24AD1F3EA60F0003B934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE24B31F3EA6350003B934 /* UIMultiListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMultiListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DE249B1F3EA60F0003B934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DE24951F3EA60F0003B934 = {
+			isa = PBXGroup;
+			children = (
+				18DE24A01F3EA60F0003B934 /* DemoForUIMultiListView */,
+				18DE249F1F3EA60F0003B934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DE249F1F3EA60F0003B934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DE249E1F3EA60F0003B934 /* DemoForUIMultiListView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DE24A01F3EA60F0003B934 /* DemoForUIMultiListView */ = {
+			isa = PBXGroup;
+			children = (
+				18DE24B31F3EA6350003B934 /* UIMultiListView.swift */,
+				18DE24A11F3EA60F0003B934 /* AppDelegate.swift */,
+				18DE24A31F3EA60F0003B934 /* ViewController.swift */,
+				18DE24A51F3EA60F0003B934 /* Main.storyboard */,
+				18DE24A81F3EA60F0003B934 /* Assets.xcassets */,
+				18DE24AA1F3EA60F0003B934 /* LaunchScreen.storyboard */,
+				18DE24AD1F3EA60F0003B934 /* Info.plist */,
+			);
+			path = DemoForUIMultiListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DE249D1F3EA60F0003B934 /* DemoForUIMultiListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE24B01F3EA60F0003B934 /* Build configuration list for PBXNativeTarget "DemoForUIMultiListView" */;
+			buildPhases = (
+				18DE249A1F3EA60F0003B934 /* Sources */,
+				18DE249B1F3EA60F0003B934 /* Frameworks */,
+				18DE249C1F3EA60F0003B934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoForUIMultiListView;
+			productName = DemoForUIMultiListView;
+			productReference = 18DE249E1F3EA60F0003B934 /* DemoForUIMultiListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DE24961F3EA60F0003B934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zzxwork;
+				TargetAttributes = {
+					18DE249D1F3EA60F0003B934 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9Q42SU34S6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18DE24991F3EA60F0003B934 /* Build configuration list for PBXProject "DemoForUIMultiListView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DE24951F3EA60F0003B934;
+			productRefGroup = 18DE249F1F3EA60F0003B934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DE249D1F3EA60F0003B934 /* DemoForUIMultiListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DE249C1F3EA60F0003B934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE24AC1F3EA60F0003B934 /* LaunchScreen.storyboard in Resources */,
+				18DE24A91F3EA60F0003B934 /* Assets.xcassets in Resources */,
+				18DE24A71F3EA60F0003B934 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DE249A1F3EA60F0003B934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE24A41F3EA60F0003B934 /* ViewController.swift in Sources */,
+				18DE24B41F3EA6350003B934 /* UIMultiListView.swift in Sources */,
+				18DE24A21F3EA60F0003B934 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18DE24A51F3EA60F0003B934 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE24A61F3EA60F0003B934 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DE24AA1F3EA60F0003B934 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE24AB1F3EA60F0003B934 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DE24AE1F3EA60F0003B934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DE24AF1F3EA60F0003B934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DE24B11F3EA60F0003B934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Q42SU34S6;
+				INFOPLIST_FILE = DemoForUIMultiListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmu.201421121054.DemoForUIMultiListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18DE24B21F3EA60F0003B934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Q42SU34S6;
+				INFOPLIST_FILE = DemoForUIMultiListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmu.201421121054.DemoForUIMultiListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DE24991F3EA60F0003B934 /* Build configuration list for PBXProject "DemoForUIMultiListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE24AE1F3EA60F0003B934 /* Debug */,
+				18DE24AF1F3EA60F0003B934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DE24B01F3EA60F0003B934 /* Build configuration list for PBXNativeTarget "DemoForUIMultiListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE24B11F3EA60F0003B934 /* Debug */,
+				18DE24B21F3EA60F0003B934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DE24961F3EA60F0003B934 /* Project object */;
+}
